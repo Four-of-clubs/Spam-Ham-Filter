@@ -1,5 +1,12 @@
 import csv
 
+#TODO:
+'''
+Cleaning links - [ ]
+Cleaning non alphabetical and numerical characters - [ ]
+Lemmatizing and/or remove Stemmers - [ ]
+'''
+
 input_file_name = "spam_ham_dataset.csv"
 output_file_name = "cleaned_data.csv"
 
@@ -48,6 +55,6 @@ if __name__ == "__main__":
     data = read_file(input_file_name)
     data = reformat(data)
     data = seperate_subject_and_body(data)
-
+    
 
     write_file(data, output_file_name)
