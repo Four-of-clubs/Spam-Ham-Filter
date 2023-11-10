@@ -6,11 +6,15 @@ From: https://www.kaggle.com/datasets/nitishabharathi/email-spam-dataset?select=
 
 # TODO
 
+https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
+https://www.kaggle.com/code/puding6x6/filtering-spam-e-mails-power-of-naive-baye-4b7070 
 ## Cleaning Data
-- lowercase - [x]
-- Cleaning links - [ ]
-- Cleaning non  alphabetical and numerical characters - [ ]
-- Lemmatizing and/or remove Stemmers - [ ]
+- Convert all characters to lowercase  - [x]
+- Removing numbers (optional) - [ ]
+- Removing Hyperlinks - [ ]
+- Cleaning non-alphabetical and numerical characters (removing punctuation) - [ ]
+- Word Stemming (totally optional, and probably not worth it) - [ ]
+- Lemmatizing - [ ]
 
 
 ## Formating Data (potential list)
@@ -26,3 +30,7 @@ From: https://www.kaggle.com/datasets/nitishabharathi/email-spam-dataset?select=
 ## Build Models
 - Neural Network - [x]
 - Naive Bayse - [ ]
+
+I struggled to find good resources to implement Naive Bayse, but chatGPT is a godsend here
+prompt like:
+write me python code to run naive bayse algorithm on a csv file where the first column is the lable (1=spam, 0 = ham) and columns 1-15 are some sort of numeric data
