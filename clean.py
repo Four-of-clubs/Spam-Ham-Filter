@@ -53,10 +53,24 @@ def seperate_subject_and_body(data):
 
     return new_data
 
+def example_mess_with_data(data):
+    new_data = []
+    for row in data:
+        label = row[0] #don't mess with this
+        subject = row[1] #mess with this if you want
+        body = row[2] #DO mess with this
+
+
+        new_data.append([label, subject, body])
+
+    return new_data
+
 if __name__ == "__main__":
     data = read_file(input_file_name)
     data = reformat(data)
     data = seperate_subject_and_body(data)
-    
+
+    data = example_mess_with_data(data)
+
 
     write_file(data, output_file_name)
