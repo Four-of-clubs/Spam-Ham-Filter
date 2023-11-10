@@ -2,9 +2,11 @@ import csv
 
 #TODO:
 '''
-Cleaning links - [ ]
-Cleaning non alphabetical and numerical characters - [ ]
-Lemmatizing and/or remove Stemmers - [ ]
+- Removing numbers (optional) - [ ]
+- Removing Hyperlinks - [ ]
+- Cleaning non-alphabetical and numerical characters (removing punctuation) - [ ]
+- Word Stemming (totally optional, and probably not worth it) - [ ]
+- Lemmatizing - [ ]
 '''
 
 input_file_name = "spam_ham_dataset.csv"
