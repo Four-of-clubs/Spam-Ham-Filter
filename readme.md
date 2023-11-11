@@ -34,3 +34,9 @@ https://www.kaggle.com/code/puding6x6/filtering-spam-e-mails-power-of-naive-baye
 I struggled to find good resources to implement Naive Bayse, but chatGPT is a godsend here
 prompt like:
 write me python code to run naive bayse algorithm on a csv file where the first column is the lable (1=spam, 0 = ham) and columns 1-15 are some sort of numeric data
+
+Project Paper/Writeup:
+https://docs.google.com/document/d/1SWEeWRDbxG5Hx476MlMTuFZFrfPs7dQBvcWofx4etME/edit
+
+Notes Doc:
+https://docs.google.com/document/d/1_AYqfDkDcg-ANJG1D0ioVEE7hKIubpQxwNx4qPhyh7E/edit
