@@ -17,15 +17,12 @@ https://www.kaggle.com/code/puding6x6/filtering-spam-e-mails-power-of-naive-baye
 - Lemmatizing - [ ]
 
 
-## Formating Data (potential list)
-- num words in subject - [ ]
-- num words in message - [ ]
-- average word length - [ ]
-- longest word length - [ ]
-- shortest word length - [ ]
-- number of exclamation marks - [ ]
-- number of our 5 indicator words - [ ]
-- number of the 10 most common words - [ ]
+## Formating Data
+- num words in subject - [X]
+- num words in message - [X]
+- average word length - [X]
+- number of our 5 indicator words - [X]
+- number of the 30 most common words - [X]
 
 ## Build Models
 - Neural Network - [x]
