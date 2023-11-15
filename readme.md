@@ -10,11 +10,11 @@ https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
 https://www.kaggle.com/code/puding6x6/filtering-spam-e-mails-power-of-naive-baye-4b7070 
 ## Cleaning Data
 - Convert all characters to lowercase  - [x]
-- Removing numbers - [ ]
-- Removing Hyperlinks - [ ]
-- Cleaning non-alphabetical and numerical characters (removing punctuation) - [ ]
-- Word Stemming (I would honestly skip this one) - [ ]
-- Lemmatizing - [ ]
+- Removing numbers - [X]
+- Removing Hyperlinks - [X] (ish)
+- Cleaning non-alphabetical and numerical characters (removing punctuation) - [X]
+- Word Stemming - [X]
+- Lemmatizing - [X]
 
 
 ## Formating Data

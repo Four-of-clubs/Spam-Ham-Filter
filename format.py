@@ -15,7 +15,7 @@ import re
 input_file_name = "cleaned_data.csv"
 output_file_name = "formated_data.csv"
 indicator_words = ["free", "now", "click", "here", "buy", "time", "offer"]
-bag_of_words_size = 30      #how many of the most common words to use for measurements
+bag_of_words_size = 100      #how many of the most common words to use for measurements
 
 def read_file(filepath):
     data = []

@@ -13,7 +13,7 @@ nltk.download('wordnet')
 - Removing numbers (optional) - [X]
 - Removing Hyperlinks - [X]
 - Cleaning non-alphabetical and numerical characters (removing punctuation) - [X]
-- Word Stemming (totally optional, and probably not worth it) - [ ]
+- Word Stemming (totally optional, and probably not worth it) - [X]
 - Lemmatizing - [X]
 '''
 
