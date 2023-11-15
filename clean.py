@@ -1,12 +1,20 @@
 import csv
+import re
+from nltk.stem import WordNetLemmatizer
+import nltk
+from nltk.corpus import stopwords
 
+# Download stopwords resource
+nltk.download('stopwords')
+# Download WordNet resource
+nltk.download('wordnet')
 #TODO:
 '''
-- Removing numbers (optional) - [ ]
-- Removing Hyperlinks - [ ]
-- Cleaning non-alphabetical and numerical characters (removing punctuation) - [ ]
+- Removing numbers (optional) - [X]
+- Removing Hyperlinks - [X]
+- Cleaning non-alphabetical and numerical characters (removing punctuation) - [X]
 - Word Stemming (totally optional, and probably not worth it) - [ ]
-- Lemmatizing - [ ]
+- Lemmatizing - [X]
 '''
 
 input_file_name = "spam_ham_dataset.csv"
@@ -57,13 +65,32 @@ def example_mess_with_data(data):
     new_data = []
     for row in data:
         label = row[0] #don't mess with this
-        subject = row[1] #mess with this if you want
-        body = row[2] #DO mess with this
+        subject = clean_data(row[1]) #mess with this if you want
+        body = clean_data(row[2]) #DO mess with this
 
 
         new_data.append([label, subject, body])
 
     return new_data
+    
+def clean_data(text):
+    # Remove numbers
+    text = re.sub(r'\d+', '', text)
+    
+    # Remove hyperlinks
+    text = re.sub(r'http\S+', '', text)
+    
+    # Remove special characters (except for letters and spaces)
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    
+    # Lemmatize
+    lemma = WordNetLemmatizer()
+    text = ' '.join(lemma.lemmatize(word) for word in text.split())
+    
+    # Remove stopwords
+    stop_words = set(stopwords.words('english'))
+    text = ' '.join(word for word in text.split() if word.lower() not in stop_words)
+    return text
 
 if __name__ == "__main__":
     data = read_file(input_file_name)
