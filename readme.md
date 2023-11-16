@@ -37,3 +37,6 @@ https://docs.google.com/document/d/1SWEeWRDbxG5Hx476MlMTuFZFrfPs7dQBvcWofx4etME/
 
 Notes Doc:
 https://docs.google.com/document/d/1_AYqfDkDcg-ANJG1D0ioVEE7hKIubpQxwNx4qPhyh7E/edit
+
+Neural Net Colab:
+https://colab.research.google.com/drive/1ew7swnpD-3XXSnolG7HLeqb5_aESgKs3?usp=sharing#scrollTo=UnfFfuaQoh4B
