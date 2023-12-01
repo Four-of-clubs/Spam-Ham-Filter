@@ -26,7 +26,7 @@ https://www.kaggle.com/code/puding6x6/filtering-spam-e-mails-power-of-naive-baye
 
 ## Build Models
 - Neural Network - [x]
-- Naive Bayse - [ ]
+- Naive Bayse - [X]
 
 I struggled to find good resources to implement Naive Bayse, but chatGPT is a godsend here
 prompt like:
@@ -37,6 +37,9 @@ https://docs.google.com/document/d/1SWEeWRDbxG5Hx476MlMTuFZFrfPs7dQBvcWofx4etME/
 
 Notes Doc:
 https://docs.google.com/document/d/1_AYqfDkDcg-ANJG1D0ioVEE7hKIubpQxwNx4qPhyh7E/edit
+
+Naive Bayes Colab:
+https://colab.research.google.com/drive/1GJ__zDnE89heQVGQLpjKitrCjm1gHBCm?usp=sharing
 
 Neural Net Colab:
 https://colab.research.google.com/drive/1ew7swnpD-3XXSnolG7HLeqb5_aESgKs3?usp=sharing#scrollTo=UnfFfuaQoh4B
